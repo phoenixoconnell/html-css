@@ -10,3 +10,8 @@ body {
     height: 100px;
     background-color: blueviolet;
 }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}

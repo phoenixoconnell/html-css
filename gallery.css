@@ -21,6 +21,10 @@ body {
     flex-wrap: wrap;
 }
 
+.image {
+    transition: transform .2s;
+}
+
 .image:hover {
     border: 2px solid purple;
     transform: scale(1.25)
