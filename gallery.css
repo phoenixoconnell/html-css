@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image:hover {
+    border: 2px solid purple;
+    transform: scale(1.25)
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+}
