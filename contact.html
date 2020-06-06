@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="contact.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
 <body>
-    
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Bio</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 class="contact-h1">Find Me Here...</h1>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/phoenix-shane-962426161" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn" width=100px>
+            </a>
+            <a href="https://github.com/phoenixoconnell" target="_blank">
+                <img src="images/github.png" alt="GitHub" width=115px>
+            </a>
+        </div>
+        <div class="portfolio">
+            <a href="https://www.phoenixoconnell.com" target="_blank">
+                <img src="images/portfolio.png" alt="LinkedIn" width=200px>
+            </a>
+        </div>
+        <div class="direct-contact">
+            <h1>...or Contact Me Directly</h1>
+        </div>
+        <div class="contact-form">
+            <form>
+                <label for="email"></label>
+                <input id="email" type="text" name="email" placeholder="Your Email Address">
+            </form>
+            <form>
+                <label for="subject"></label>
+                <input id="subject" type="text" name="subject" placeholder="Subject">
+            </form>
+            <form>
+                <label for="text"></label>
+                <textarea id="text" type="text" name="text" placeholder="Your Message Here"></textarea>
+            </form>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </div>
 </body>
 </html>

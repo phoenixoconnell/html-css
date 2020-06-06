@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'lumos';
+    src: url("LUMOS.TTF") format("truetype"), url("LUMOS.woff") format("woff");
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    font: 100% lumos;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    margin: 0 100px 30px 100px;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-size: 70px;
+}
+
+.navbar li {
+    margin: auto;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    margin-right: 20px;
+    border: 2px solid rebeccapurple;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    width: 500px;
+}
+
+footer {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    width: 1000px;
+    height: 75px;
+    margin: auto;
+}
